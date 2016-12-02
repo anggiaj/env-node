@@ -1,0 +1,34 @@
+{
+  "name": "env-node",
+  "title": "env",
+  "version": "1.0.0",
+  "description": "Know your environment better",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha test",
+    "lint": "node_modules/.bin/eslint .; exit 0"
+  },
+  "author": "gia <anggiaj@gmail.com>",
+  "license": "MIT",
+  "repository": "anggiaj/env-node",
+  "keywords": [
+    "env",
+    "environment",
+    "config",
+    "rails"
+  ],
+  "bugs": {
+    "url": "https://github.com/anggiaj/env-node/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.5",
+    "eslint": "^3.11",
+    "eslint-config-airbnb-base": "^10.0",
+    "eslint-plugin-import": "^2.2",
+    "eslint-plugin-mocha": "^4.7",
+    "mocha": "^3.2"
+  },
+  "engines": {
+    "node": ">=6.1"
+  }
+}
